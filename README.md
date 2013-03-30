@@ -1,4 +1,4 @@
-cucumber-in-groups
+cucumber_in_groups
 ==================
 
 Splits your cucumber features into groups to run them separately.
