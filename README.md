@@ -8,7 +8,7 @@ Usage
 
 In your Gemfile
 
-    gem "cucumber_in_groups", :git => "git@github.com:vovayartsev/cucumber_in_groups.git"
+    gem "cucumber_in_groups", :git => "git://github.com/vovayartsev/cucumber_in_groups.git"
 
 
 Then add this line to your cucumber.yml
