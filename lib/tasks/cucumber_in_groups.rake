@@ -1,6 +1,7 @@
 unless ARGV.any? { |a| a =~ /^gems/ } # Don't load anything when running the gems:* tasks
 
   require 'cucumber/rake/task'
+  require 'active_support/core_ext/array/grouping'
 
   namespace :cucumber do
 
