@@ -1,3 +1,5 @@
+![CI Status](https://semaphoreapp.com/api/v1/projects/a8069b3299fa4d7cf3f3daa72278cc1c41a559ce/35836/badge.png)
+
 Cucumber_in_groups
 ==================
 
