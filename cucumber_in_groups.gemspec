@@ -1,9 +1,9 @@
 Gem::Specification.new do |s|
   s.name        = 'cucumber_in_groups'
   s.version     = '0.0.1'
-  s.date        = '2013-03-30'
-  s.summary     = "Run first or second half of your cucumber features separately"
-  s.description = "Helps dividing cucumber features into groups to run them in parallel"
+  s.date        = '2013-04-04'
+  s.summary     = "Splits your cucumber features into groups to run them separately"
+  s.description = "Add <%= grouped_features %> to your cucumber.yml and get your cucumber features divided into groups. Useful for parallel test running. e.g in Semaphore CI"
   s.authors     = ["Vladimir Yartsev"]
   s.email       = 'vovayartsev@gmail.com'
   s.files       = ["lib/cucumber_in_groups.rb"]
