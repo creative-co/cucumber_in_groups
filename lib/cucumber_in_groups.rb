@@ -16,7 +16,7 @@ if defined?(Cucumber)
           if group > 0 and group <= groups_count
             # listing content of features folder (or whatever folder requested)
             features = list_features(args).sort
-            files_to_test = features.in_groups(groups_count)[group-1]
+            files_to_test = features.in_groups(groups_count, false)[group-1]
 
             # some debug info on-screen
             STDERR.puts "\n=========== FEATURES GROUP #{group} of #{groups_count} ============="
@@ -36,10 +36,9 @@ if defined?(Cucumber)
       end
     end
 
-    private
-
     def list_features(paths)
       paths.map { |path| Dir["#{path}/**/*.feature"] }.flatten
     end
+
   end
 end
