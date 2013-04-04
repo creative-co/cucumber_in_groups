@@ -32,7 +32,7 @@ from <%= grouped_features %> instead of the default "features" directory:
 Then in your CI script, use GROUP environment variable. Group
 numbers are 1-based (e.g. 1of3, 2of3, 3of3)
 
-    RAILS_ENV=test GROUP=1of2 bundle exec rake cucumber
+    RAILS_ENV=test GROUP=1of2 bundle exec cucumber
 
 Advanced Usage
 ==============
@@ -47,7 +47,7 @@ Pitfalls
 Make sure you have enough features to divide them into groups. E.g. if you have *only one* "*.feature" file, 
 the command below will give you unexpected results:
 
-    RAILS_ENV=test GROUP=2of2 bundle exec rake cucumber
+    RAILS_ENV=test GROUP=2of2 bundle exec cucumber
 
 This happens because <%= grouped_features %> expression returns empty string in this case, 
 and cucumber may simply run all features instead of none.
