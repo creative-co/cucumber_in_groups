@@ -2,7 +2,7 @@ PATH
   remote: .
   specs:
     cucumber_in_groups (0.0.1)
-      active_support
+      active_support (~> 3.0)
 
 GEM
   remote: https://rubygems.org/

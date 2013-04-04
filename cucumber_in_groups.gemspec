@@ -6,10 +6,10 @@ Gem::Specification.new do |s|
   s.description = "Helps dividing cucumber features into groups to run them in parallel"
   s.authors     = ["Vladimir Yartsev"]
   s.email       = 'vovayartsev@gmail.com'
-  s.files       = ["lib/tasks/cucumber_in_groups.rake", "lib/cucumber_in_groups.rb"]
+  s.files       = ["lib/cucumber_in_groups.rb"]
   s.homepage    = 'https://github.com/cloudcastle/cucumber_in_groups'
 
-  s.add_runtime_dependency "active_support"
+  s.add_runtime_dependency "active_support", "~> 3.0"
 
   s.add_development_dependency "cucumber", "~> 1.2.3"
   s.add_development_dependency 'rake'
