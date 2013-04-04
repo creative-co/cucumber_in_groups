@@ -3,6 +3,7 @@ PATH
   specs:
     cucumber_in_groups (0.0.1)
       activesupport (~> 3.0)
+      cucumber (~> 1.0)
 
 GEM
   remote: https://rubygems.org/
@@ -36,7 +37,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  cucumber (~> 1.0)
   cucumber_in_groups!
   rake (~> 10.0)
   rspec (~> 2.13)
