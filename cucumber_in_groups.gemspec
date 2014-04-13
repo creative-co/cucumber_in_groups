@@ -9,9 +9,9 @@ Gem::Specification.new do |s|
   s.files       = ["lib/cucumber_in_groups.rb"]
   s.homepage    = 'https://github.com/cloudcastle/cucumber_in_groups'
 
-  s.add_runtime_dependency "activesupport", "~> 3.0"
+  s.add_runtime_dependency "activesupport"
   s.add_runtime_dependency "cucumber", "~> 1.0"
 
-  s.add_development_dependency 'rake', "~> 10.0"
+  s.add_development_dependency 'rake'
   s.add_development_dependency 'rspec', "~> 2.13"
 end
