@@ -46,7 +46,7 @@ module Cucumber
       end
 
       def list_features(paths)
-        paths.map { |path| Dir["#{path}/**/*.feature"] }.flatten
+        paths.flatten.map { |path| Dir["#{path}/**/*.feature"] }.flatten
       end
 
     end
